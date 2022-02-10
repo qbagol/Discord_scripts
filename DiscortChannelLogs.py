@@ -26,4 +26,4 @@ def Discord_bot_get():
     
     df.to_csv(f'discord_logs_channel_{channel_id}_time_{time}.csv')
     
-x=Discord_bot_get()
+Discord_bot_get()
